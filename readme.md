@@ -27,7 +27,7 @@ create the folder like src/index.js// its the default name
 after that put the script along with dist/main.js
 
 
-After that...
+=====================================
 
 Add "build":"webpack --mode production"
 
@@ -35,3 +35,13 @@ Add "build":"webpack --mode production"
 
 npm run build for minified the version
 npm run dev for production
+
+=======================================
+
+overriding the defaults entry/output
+
+Add "build":"webpack --mode production ./src/js/index.js"
+
+"dev":"webpack --mode development"
+
+its just the entry point and you can also set the o/p point --output ./foo/main.js in both build and dev
