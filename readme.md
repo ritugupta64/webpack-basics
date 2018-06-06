@@ -60,3 +60,27 @@ Webpack dev server
 - npm run start
 
 -We should have the dist folder..
+
+================================================
+
+babel
+
+-npm i babel-core babel-loader babel-preset-env --save-dev
+
+-create the file webpack.config.js and paste the code
+
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
+      }
+    ]
+  }
+};
+
+
