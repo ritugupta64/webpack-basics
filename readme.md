@@ -25,3 +25,13 @@ before it...
 create the folder like src/index.js// its the default name
 
 after that put the script along with dist/main.js
+
+
+After that...
+
+Add "build":"webpack --mode production"
+
+"dev":"webpack --mode development"
+
+npm run build for minified the version
+npm run dev for production
