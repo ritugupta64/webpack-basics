@@ -45,3 +45,18 @@ Add "build":"webpack --mode production ./src/js/index.js"
 "dev":"webpack --mode development"
 
 its just the entry point and you can also set the o/p point --output ./foo/main.js in both build and dev
+
+=======================================
+
+Webpack dev server
+
+- npm i webpack-dev-server --save-dev
+
+- add on 
+
+"start":"webpack-dev-server --mode development --open"
+"build":"webpack --mode production"
+
+- npm run start
+
+-We should have the dist folder..
