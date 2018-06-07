@@ -54,6 +54,9 @@ Webpack dev server
 
 - add on 
 
+First method..
+which is not correct
+
 "start":"webpack-dev-server --mode development --open"
 "build":"webpack --mode production"
 
@@ -61,26 +64,10 @@ Webpack dev server
 
 -We should have the dist folder..
 
-================================================
 
-babel
+Second method..
 
--npm i babel-core babel-loader babel-preset-env --save-dev
+"build":"webpack-dev-server --mode production --entry ./src/js/index.js --output-filename ./dist/main.js"
 
--create the file webpack.config.js and paste the code
-
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
-  }
-};
-
+npm run build
 
