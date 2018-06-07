@@ -1,3 +1,5 @@
+//import style from "./main.css";
+
 import {x, y} from './al';
 
 x();

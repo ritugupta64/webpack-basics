@@ -6,5 +6,5 @@ export var x = function(){
 
 
 export const y = ()=>{
-	return alert('hi, its the example to use  the babel')
+	return alert('hi, its the example to use  the webpack dev server....test')
 }
