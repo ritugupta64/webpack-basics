@@ -54,9 +54,20 @@ Webpack dev server
 
 - add on 
 
+First method..
+which is not correct
+
 "start":"webpack-dev-server --mode development --open"
 "build":"webpack --mode production"
 
 - npm run start
 
 -We should have the dist folder..
+
+
+Second method..
+
+"build":"webpack-dev-server --mode production --entry ./src/js/index.js --output-filename ./dist/main.js"
+
+npm run build
+
