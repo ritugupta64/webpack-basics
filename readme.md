@@ -71,3 +71,12 @@ Second method..
 
 npm run build
 
+
+=========================================
+
+Css loader/style loader
+
+- import css into index.js
+- remove the code form package.json
+- create config file
+

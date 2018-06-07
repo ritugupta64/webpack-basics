@@ -1,6 +1,7 @@
-//import style from "./main.css";
-
 import {x, y} from './al';
+import "../css/reset.css";
+import "../css/normalize.css";
+
 
 x();
 y();
